@@ -49,7 +49,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
   
 # Category & Tag
@@ -80,3 +80,4 @@ deploy:
   type: git
   repo: root@120.79.144.180:/var/repo/blog.git
   branch: master
+
