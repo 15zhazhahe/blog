@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: C++ Primer Plus 第六版 第2章 开始学习C++
+title: 《C++ Primer Plus 第六版》 第2章 开始学习C++
 date: 2018-03-10 22:02:57
 tags: 
     - C++
