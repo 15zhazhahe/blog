@@ -15,6 +15,8 @@ comments: true
 + $m$表示训练样本的个数
 + $n$表示特征的数量
 
+<!-- more -->
+
 在多变量线性回归中，多考虑一个$x_0=1$假设函数为：
 
 $$h_\theta (x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_3 + \cdots + \theta_n x_n $$

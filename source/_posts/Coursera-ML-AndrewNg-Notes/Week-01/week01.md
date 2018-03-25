@@ -15,6 +15,8 @@ mathjax: true
 + 1959年Arthur Samuel定义的机器学习为:**在没有明确设置的情况下，使计算机具有学习能力的研究领域.**("the field of study that gives computers the ability to learn without being explicitly programmed.")
 + 1998年Tom Mitchell给了一个更加正式的定义：**计算机程序从经验E中学习，解决某一问题E，进行某一性能度量P，通过P测定在T上的表现因经验E而提高.**(A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.)
 
+<!-- more -->
+
 ## 监督学习
 
 在监督需学习中，再给出的数据集中，我们已经知道了正确的输出，也就是输入与输出的关系是已知的。
