@@ -80,3 +80,4 @@ deploy:
   type: git
   repo: root@120.79.144.180:/var/repo/blog.git
   branch: master
+
