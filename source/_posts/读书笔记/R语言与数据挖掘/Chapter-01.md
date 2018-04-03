@@ -3,7 +3,7 @@ layout: pages
 title: 《R语言与数据挖掘》 第一章 R语言的安装与使用
 date: 2018-03-17 11:06:35
 tags: 
-    - R
+    - R语言
     - 读书笔记
 categories:
     - 读书笔记
