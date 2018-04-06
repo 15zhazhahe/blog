@@ -1,5 +1,5 @@
 ---
-title: Coursera-ML-AndrewNg-Notes 第二周
+title: Coursera-ML-AndrewNg-Notes 第三周
 date: 2018-04-06 16:43:57
 tags: [机器学习]
 categories: [机器学习]
@@ -77,9 +77,7 @@ $$\begin{align*}
 
 同样的，也有一个代价函数来表示拟合的好坏程度，然后去维护$\theta$，使得代价函数达到最小值。若用线性回归的代价函数$(J(\theta)=\dfrac{1}{2m}\sum_{i=1}{m}(h_\theta(x^{(i)})-y^{(i)})^2)$来表示，会发现，代价函数是一个非凸函数，这样在进行梯度下降的时候会卡在局部最小值上，这样就无法判断是否收敛至全局最优。
 
-<div align="center">
-	![](http://scruel.gitee.io/ml-andrewng-notes/image/20180111_080314.png)
-</div>
+![](http://scruel.gitee.io/ml-andrewng-notes/image/20180111_080314.png)
 
 在这个视频中，对于逻辑回归函数使用的是对数损失函数，这是由统计学中的最大似然估计方法推出的代价函数$J(\theta)$
 
@@ -91,9 +89,7 @@ $$\begin{align*}
 
 代价函数的图片如下：
 
-<div align="center">
-	![](http://scruel.gitee.io/ml-andrewng-notes/image/20180111_080614.png)
-</div>
+![](http://scruel.gitee.io/ml-andrewng-notes/image/20180111_080614.png)
 
 就像图片上看到的，当$y=1$的时候，若预测到$h_\theta(x)=0$，就会得到一个特别大的惩罚，而当$h_\theta(x)=1$时，代价函数的值就为$0$，将相当于预测的很好。当$y=0$时也是一样的。
 
